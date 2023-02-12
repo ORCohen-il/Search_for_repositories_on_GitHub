@@ -1,4 +1,4 @@
-# Searching repositories in Github
+# Searching repositories on Github
 
 ## Here are some brief explanations on how to run the project..
 
