@@ -1,0 +1,38 @@
+<div class="main_container">
+  <div class="form_container">
+    <div class="form_box">
+      <form class="input-group mb-3">
+        <input
+          type="search"
+          id="name"
+          class="form-control"
+          class="form-control"
+          placeholder="Enter Repository name"
+          name="Inputvalue"
+          #Inputvalue
+          required
+        />
+        <button
+          class="btn btn-light"
+          id="button-addon2"
+          (click)="onSubmit(Inputvalue)"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div class="bookmarkBtn">
+      <div class="input-group mb-3">
+        <button
+          class="btn btn-warning"
+          id="button-addon2"
+          (click)="navBookmarks()"
+        >
+          bookmarks
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <app-gallery-items [repoItems]="repoItems"></app-gallery-items>
+</div>

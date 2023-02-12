@@ -1,0 +1,10 @@
+<div class="card">
+  <div class="cardContiner">
+  <img src="{{ item.avatar_url }}" class="card-img-top" alt="..." />
+  <div class="card-body">
+    <p>RepoName : {{ item.name }}</p>
+    <p>OwnerName : {{ item.ownerName }}</p>
+  </div>
+</div>
+  <button (click)="saveRepo(item)" class="btn"><span class="icon"></span> bookmark</button>
+</div>

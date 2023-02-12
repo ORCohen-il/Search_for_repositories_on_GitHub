@@ -1,0 +1,16 @@
+<nav>
+<div class="container">
+    <form >
+      <h1>Login</h1>
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input #Username type="text" class="form-control" id="username">
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input #Password type="password" class="form-control" id="password">
+      </div>
+      <button  (click)="OnSubmit({Username :Username.value, Password : Password.value})" type="button"  class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</nav>

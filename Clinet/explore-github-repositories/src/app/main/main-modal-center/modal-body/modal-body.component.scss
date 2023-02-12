@@ -1,0 +1,25 @@
+.modal-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .modal-body-imgView {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid salmon;
+    border-radius: 50%;
+    img {
+      height: 40vh;
+      border-radius: 50%;
+      object-fit: cover;
+      overflow: hidden;
+    }
+  }
+}
+
+.modal-body-text-view {
+  margin: 3%;
+}

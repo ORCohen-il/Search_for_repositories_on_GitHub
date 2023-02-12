@@ -1,0 +1,10 @@
+.header_container{
+    background: linear-gradient(to right, #7b4397, #dc2430);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+}
+

@@ -1,0 +1,27 @@
+.main_container {
+  background-color: rgb(15, 202, 202);
+  min-height: 90vh;
+}
+
+.form_container {
+  display: flex;
+  justify-content: center;
+}
+
+.form_box {
+  margin-top: 2%;
+  width: 500px;
+}
+
+.bookmarkBtn {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.modal-content {
+  height: 80vh !important;
+}
+
+.naviButton {
+  padding-left: 0px;
+}

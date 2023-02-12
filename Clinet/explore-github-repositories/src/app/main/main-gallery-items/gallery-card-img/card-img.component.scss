@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 15rem;
+  margin: 10px;
+
+  .cardContiner{
+    height: 35vh;
+    img {
+      max-height: 20vh;
+    }
+  }
+ 
+
+  .btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white; 
+    padding: 12px 16px; 
+    font-size: 16px; 
+    cursor: pointer; 
+  }
+
+  .btn span.icon {
+    background: url(../../../../assets/icons/repository_icon.png) no-repeat;
+    background-size: contain;
+    float: right;
+    width: 30px;
+    height: 25px;
+  }
+
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+}
